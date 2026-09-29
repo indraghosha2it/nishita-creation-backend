@@ -415,20 +415,13 @@ const createDefaultSettings = async () => {
     
      
   
-       {
-        id: generateId(),
-        name: 'Trust & Results',
-        type: 'trust_results',
-        isActive: true,
-        displayOrder: 5,
-        items: []
-      },
+    
       {
   id: generateId(),
   name: 'Achievements',
   type: 'achievements',
   isActive: true,
-  displayOrder: 6,
+  displayOrder: 5,
   items: []
 },
 {
@@ -436,7 +429,7 @@ const createDefaultSettings = async () => {
   name: 'Videos',
   type: 'videos',
   isActive: true,
-  displayOrder: 7,
+  displayOrder: 6,
   items: []
 }
      
